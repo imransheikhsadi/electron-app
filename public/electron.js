@@ -15,7 +15,7 @@ function createWindow () {
   win.loadURL(
       isDev ? "http://localhost:3000" : `file://${path.join(__dirname, "../build/index.html")}`
   )
-  win.webContents.openDevTools()
+//   win.webContents.openDevTools()
 }
 
 app.whenReady().then(createWindow)

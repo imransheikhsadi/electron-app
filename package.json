@@ -2,6 +2,12 @@
   "name": "electron-app",
   "version": "0.1.0",
   "main": "public/electron.js",
+  "description": "This app is create with Electron and React for Rayhan Company Limited",
+  "author": "Imran Shaikh",
+  "build": {
+    "appId": "electron.app"
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
